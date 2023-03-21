@@ -1,0 +1,14 @@
+	@media (min-width: 768px) {
+    .results {
+		&__cards {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		&__card {
+			margin: 1em;
+			width: 45%;
+		}
+	}
+}
